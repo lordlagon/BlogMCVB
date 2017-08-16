@@ -128,10 +128,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ComentariosController.cs" />
     <Compile Include="Controllers\PostsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Comentario.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\Post.cs" />
@@ -146,6 +148,11 @@
     <Content Include="Views\Posts\Details.cshtml" />
     <Content Include="Views\Posts\Edit.cshtml" />
     <Content Include="Views\Posts\Index.cshtml" />
+    <Content Include="Views\Comentarios\Create.cshtml" />
+    <Content Include="Views\Comentarios\Delete.cshtml" />
+    <Content Include="Views\Comentarios\Details.cshtml" />
+    <Content Include="Views\Comentarios\Edit.cshtml" />
+    <Content Include="Views\Comentarios\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
