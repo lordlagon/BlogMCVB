@@ -10,5 +10,6 @@ namespace BlogMVCB.Models
     {
         public DbSet<Post> Posts { get; set; }
         public DbSet<Comentario> Comentarios { get; set; }
+
     }
 }
